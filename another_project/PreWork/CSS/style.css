@@ -1,0 +1,277 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding:0;
+  margin:0;
+  background-color: rgb(241, 224, 208);
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+
+ul{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+
+
+.horror {
+  font-family: Arial, Helvetica, sans-serif;
+  background:#45014b;
+  color:#ffffff;
+  text-align: center;
+}
+
+
+
+/* Header **/
+header{
+  background:#45014b;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:rgb(27, 22, 21) 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #intro{
+  float: left;
+}
+
+header #intro h1{
+  margin:0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color:#e7bfb4;
+  font-weight:bold;
+}
+
+header a:hover {
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+/*Introduction*/
+#showcase {
+  min-height:400px;
+  background:url('../Images/piedmontparkatlanta.avif') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+
+
+
+
+
+
+/* BOX/CONTACT */
+#boxes{
+  margin-top: 80px;
+  
+}
+
+#boxes img{
+  width: 70px;
+}
+
+.box {
+  float: right;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  padding:15px;
+  background:#45014b;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#github:hover,
+#twitter:hover, 
+#fcc:hover,
+#gmail:hover,
+#logo-html:hover,
+#logo-css:hover,
+#logo-js:hover,
+#logo-steam:hover {
+  transform: translateY(2px);
+  
+}
+
+
+/*hr*/
+ 
+hr {
+  color: #e7bfb4;
+  width: auto;
+}
+
+/*TABLE*/
+
+table, 
+tr,
+tr, 
+td {
+  border: none;
+ font-family: fantasy;
+ 
+  text-align: center;
+}
+
+.contact-table {
+  border-bottom: #e7bfb4;
+  
+  
+}
+
+
+
+/*SURVEY FORM*/
+.surveyform {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  float: left;
+  width: 45%;
+  padding: 10px;
+  padding:15px;
+  background:#45014b;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+#frmsrv {
+  text-align: center;
+  font-size: 25px;
+}
+
+/*OTHER*/
+input:hover {
+  background-color:#a06f9d;
+}
+
+#movie,
+#more {
+  text-align: center;
+}
+
+
+
+/*HOME SIDEBAR*/
+aside#Contact {
+  float: right;
+  width: 30%;
+  width: 80%;
+  padding: 5px;
+  
+}
+
+
+
+/*SIDEBAR*/
+aside#sidebar{
+  float: right;
+  width: 40%;
+  
+}
+
+aside#sidebar input , aside#sidebar .quote{
+  width: 90%;
+  padding: 5px;
+}
+
+/* ABOUT */
+article#about{
+  float: left;
+  width: 50%;
+ 
+}
+
+
+.text-area {
+  font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  display:flex;
+  margin: 1.0em auto;
+  text-align: center;
+  word-wrap: break-word;
+  resize: none;
+  
+  
+}
+
+
+
+
+
+
+
+.submit-button {
+  background: rgb(6,6,6);
+  background: linear-gradient(90deg, rgba(6,6,6,0.001) 12%, rgba(190, 163, 163, 0.985) 51%, rgba(6,6,6,0.001) 89%); 
+  color: white;
+  border-radius: 4px;
+  height: 40px;
+  width: 375px;
+  border: 0px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: Lucida Console;
+  display: block;
+  margin: 1.0em auto;
+  text-align: center;
+  
+
+}
+
+/*FOOTER*/
+
+footer{
+  padding:20px;
+  margin-top:90px;
+  color:#ffffff;
+  background-color:#45014b;
+  text-align: center;
+}
+
+.credits {
+  justify-content: space-between;
+}
+
